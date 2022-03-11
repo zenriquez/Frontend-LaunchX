@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedidos</title>
+   
+  </head>
+  <body>
+   
+    <div class="contendedor-2">
+
+      <form action="">
+        <div class="datos">
+          <div class="campo">
+            <label for="nombre">Nombre(s)</label>
+            <input type="text" name="nombre" id="" required />
+          </div>
+          <div class="campo">
+            <label for="celular">Telefono</label>
+            <input type="tel" maxlength="10" required />
+          </div>
+          <div class="campo">
+            <label for="correo">Correo Electronico</label>
+          <input type="email" name="correo" required />
+          </div>
+          <div class="campo"> <label for="pastel">Selecciona un Pastel</label>
+            <select name="pastel" id="">
+              <option value="1">Angel Con Fresas $390.00 MXN</option>
+              <option value="2">Angel con Mango $390.00 MXN</option>
+              <option value="2">Pastel de Blueberry $320.00 MXN</option>
+              <option value="2">Pastel de Platano $290.00 MXN</option></select>
+          </div>
+        </div>
+       
+        <div class="datos-tabla">
+          <h4>Selecciona tu relleno</h4>
+
+          <table>
+            <tr>
+              <th>Relleno</th>
+              <th>Precio</th>
+              <th>Agregar</th>
+            </tr>
+            <tr>
+              <td>Mermelada</td>
+              <td>200.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Ganache</td>
+              <td>215.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Crema</td>
+              <td>350.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>chantillí</td>
+              <td>250.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Dulce de Leche</td>
+              <td>180.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="boton">
+          <input type="submit" value="Hacer Pedido" />
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
